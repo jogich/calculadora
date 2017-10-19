@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <script src="calcular.js"></script>
+</head>
+<body>
+    <center>
+        <table border="1">
+            <tr>
+                <th colspan="4" id="pantalla"></th>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td><button value="C">C</button></td>
+                <td><button value="CE">CE</button></td>
+            </tr>
+            <tr>
+                <td><button value="1" onclick="mostrarycalcular(this.value)">1</button></td>
+                <td><button value="2" onclick="mostrarycalcular(this.value)">2</button></td>
+                <td><button value="3" onclick="mostrarycalcular(this.value)">3</button></td>
+                <td><button value="+" onclick="mostrarycalcular(this.value)">+</button></td>
+            </tr>
+            <tr>
+                <td><button value="4" onclick="mostrarycalcular(this.value)">4</button></td>
+                <td><button value="5" onclick="mostrarycalcular(this.value)">5</button></td>
+                <td><button value="6" onclick="mostrarycalcular(this.value)">6</button></td>
+                <td><button value="*" onclick="mostrarycalcular(this.value)">*</button></td>
+            </tr>
+            <tr>
+                <td><button value="7" onclick="mostrarycalcular(this.value)">7</button></td>
+                <td><button value="8" onclick="mostrarycalcular(this.value)">8</button></td>
+                <td><button value="9" onclick="mostrarycalcular(this.value)">9</button></td>
+                <td rowspan="2"><button value="=">=</button></td>
+            </tr>
+            <tr>
+                <td><button value="0" onclick="mostrarycalcular(this.value)">0</button></td>
+                <td colspan="2"><button value="pi">π</button></td>
+            </tr>
+        </table>
+    </center>
+</body>
+<script src="calcular.js"></script>
+</html>
